@@ -11,7 +11,7 @@ body {
   text-align: center;
 }
 
-h1, h3 {
+h1 {
   color: #e68a00;
 }
 
@@ -23,6 +23,10 @@ p {
 color: #e68a00;
 }
 
+h3 {
+ color: #cccc00;
+}
+
 #info {
-color: #e68a00;
+color:  #b3b300;
 }
