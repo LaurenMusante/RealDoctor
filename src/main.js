@@ -21,6 +21,9 @@ $(document).ready(function(){
       $("#info").append(`Visit your doctor at: ${address} in Portland, OR <br>`);
       $("#info").append(`This doctor's specialty is listed as: ${specialty}`)
 
+      for (i=0; i > body.data.length, i++) { // need to go through data array in order to find more than the same doctor over and over again. 
+
+      }
 
     });
   });
