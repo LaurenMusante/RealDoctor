@@ -1,3 +1,28 @@
 #results {
   display: none;
 }
+
+.btn-info {
+  background-color: #e68a00;
+}
+
+body {
+  background-color: #4d4d00;
+  text-align: center;
+}
+
+h1, h3 {
+  color: #e68a00;
+}
+
+#doctorForm {
+  color: #e68a00;
+}
+
+p {
+color: #e68a00;
+}
+
+#info {
+color: #e68a00;
+}

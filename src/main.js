@@ -13,9 +13,13 @@ $(document).ready(function(){
     newPromise.then(function(response){
       const body = JSON.parse(response);
       console.log(body);
-      let address = body.data[0].practice[0].visitaddress.street;
+      let doctorFirstName = body.data[0].profile.first_name;
+      let doctorLastName = body.data[0].profile.last_name;
+      let address = body.data[0].practices[0].visit_address.street;
+      console.log(address);
       $("#results").show();
-      $("#info").append(`"<p> testing </p>"`);
+      $("#info").append(`Your doctor's name: ${doctorFirstName} ${doctorLastName} <br>`)
+      $("#info").append(`Visit your doctor at: ${address}`);
 
     });
   });
